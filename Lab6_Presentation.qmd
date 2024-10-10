@@ -1,25 +1,25 @@
 ---
+bibliography: references.bib
 title: "Lab 6: Quarto Presentation"
 author: "Lawrence Cheung"
 format: revealjs
 editor: visual
 ---
 
-## Quarto
+## Some Important Literature
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+@lupianez_disruptions_2015 is a great article discussing the consequences of disrupting the 3d structure of topologically associating domains shown through genome editing.
 
-## Bullets
+@rube_prediction_2022 is relevant to my research into machine learning models which can accurately recover biophysical parameters from sequencing data resulting from protein ligand interactions.
 
-When you click the **Render** button a document will be generated that includes:
+## A cool equation or two
 
--   Content authored with markdown
--   Output from executable code
+$e^{i\pi}-1=0$
 
-## Code
+$\int_0^{x}f(t)dt=F(x)-F(0)$
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+## References
 
-```{r}
-1 + 1
-```
+@rube_prediction_2022
+
+@lupianez_disruptions_2015
